@@ -39,7 +39,7 @@ class App extends Component{
   render(){
     return(
       <div>
-        <h1>Fixa de inscrição vai na web</h1>
+        <h1>Ficha de inscrição vai na web</h1>
         <ul>
           {this.state.cadastro.map((item)=>(
             <li><h2>{item.CompleteName}</h2>
